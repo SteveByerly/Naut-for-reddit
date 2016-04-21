@@ -1,0 +1,49 @@
+/* --- Addon: Somewhat Larger Header --- */
+  #header {height: 294px;}
+  #header-bottom-left, body:not(.search-page) .side:before {top: 198px;}
+  body:not(.search-page) .side .titlebox h1.redditname {top: 406px;}
+  body:not(.search-page) .titlebox span.subscribers {top: 432px;}
+  body:not(.search-page) .titlebox .fancy-toggle-button {top: 412px;}
+  #search {top: 482px;}
+  body:not(.search-page)  .morelink {top: 540px;}
+  .comments-page .side .linkinfo {top: 592px;}
+
+/* --- End Addon --- */
+
+/* --- Addon: Text Strings --- */
+  .arrow.down:after {content: "For content that does not contribute to any discussion.";}
+  div.titlebox span.number:after {content: " readers";}
+  .titlebox .users-online .number:after {content: " currently online";}
+/* --- End Addon --- */
+
+/* --- Addon: Change Subreddit's colors --- */
+
+    /* Buttons */
+    .morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
+    .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {background-color: #A444F8;}
+
+        .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {background-color: #8B2BDF;}
+        .morelink:active , .side .titlebox .md h3 a:active , .btn:active , body button:active {background-color: #8B2BDF;}
+
+/* --- End Addon --- */
+
+/* --- Customizations --- */
+  #sr-header-area {
+    background-color: rgba(0,0,0,0.22);
+  }
+  #header .tabmenu:before {
+    background-color: rgba(0,0,0,0.48);
+  }
+  .footer {
+    background-color: rgba(38, 75, 58, 0.74);
+  }
+  .flat-vert.title, .bottommenu a {
+    color: rgba(255,255,255,0.8);
+  }
+  .bottommenu {
+    color: rgba(255,255,255,0.42);
+  }
+  /* Remove css-based FAQs */
+  #images:before{display:none;}
+  #images:after{display:none;}
+/* --- Customizations --- */

@@ -2732,7 +2732,7 @@
 
 
 			/* FAQ */
-			#images:before {
+/* 			#images:before {
 				position: fixed;
 				width: 100%;
 				padding: 16px;
@@ -2758,7 +2758,7 @@
 				background-image: url(%%faq%%);
 				background-repeat: no-repeat;
 				background-position: 50% 50%;
-			}
+			} */
 
 
 

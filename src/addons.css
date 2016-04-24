@@ -19,11 +19,27 @@
 /* --- Addon: Change Subreddit's colors --- */
 
     /* Buttons */
-    .morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
-    .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {background-color: #A444F8;}
-
-        .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {background-color: #8B2BDF;}
-        .morelink:active , .side .titlebox .md h3 a:active , .btn:active , body button:active {background-color: #8B2BDF;}
+    .morelink,
+    .side .titlebox .md h3 a,
+    .drop-choices a.choice:hover,
+    .submit-page #newlink.submit.content ul.tabmenu.formtab,
+    .submit_text.enabled.roundfield,
+    body .btn, body button,
+    .content .infobar {
+      background-color: #A444F8;
+    }
+      .morelink:hover,
+      .side .titlebox .md h3 a:hover,
+      .btn:hover,
+      body button:hover {
+        background-color: #8B2BDF;
+      }
+      .morelink:active ,
+      .side .titlebox .md h3 a:active,
+      .btn:active,
+      body button:active {
+        background-color: #8B2BDF;
+      }
 
 /* --- End Addon --- */
 

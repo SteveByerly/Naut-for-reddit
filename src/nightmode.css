@@ -60,7 +60,7 @@
 .res-nightmode .submit_text.enabled.roundfield,
 .res-nightmode body .btn, body button,
 .res-nightmode .content .infobar {
-  background-color: #0079d3;
+  background-color: #A444F8;
   color: #fff;
 }
   .res-nightmode .morelink:hover,
@@ -68,12 +68,12 @@
   .res-nightmode .side .titlebox .md h3 a:hover,
   .res-nightmode .btn:hover,
   .res-nightmode body button:hover {
-    background-color: #158be2;
+    background-color: #8B2BDF;
     color: #fff;
   }
   .res-nightmode .morelink:active ,
   .res-nightmode .side .titlebox .md h3 a:active,
   .res-nightmode .btn:active,
   .res-nightmode body button:active {
-    background-color: #0066b2;
+    background-color: #8B2BDF;
   }
